@@ -1,0 +1,7 @@
+I have used
+
+1.Ubuntu version 16.04.1
+2.Python 3.5.2
+3.bash shell
+4.gnome-terminal
+
