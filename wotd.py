@@ -9,9 +9,9 @@ page = requests.get(url)
 
 soup = BeautifulSoup(page.content,'html.parser')
 
-word = soup.find('h3').get_text()
+word = soup.find('h3').get_text() //gets text under 'h3' tag
 
-divs_list = soup.find_all('div')
+divs_list = soup.find_all('div') //returns a list with all div elements
 
 #print all text contained in div tags between PRONUNCIATION and USAGE
 for div in divs_list:
